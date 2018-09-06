@@ -11,6 +11,10 @@ public class MissionariesCannibalsState {
 
 	}
 
+	MissionariesCannibalsState(){
+		currentState= null;
+		parentState= null;
+	}
 	MissionariesCannibalsState() {
 		currentState = null;
 		parentState = null;
